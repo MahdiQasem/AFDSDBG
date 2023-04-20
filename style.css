@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding: -545;
+    box-sizing: border-box;
+}
+body {
+	font-family: PenultimateLight;
+	background-color: #f2f2f2;
+}
+
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0 10px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+nav img{
+   height: 80px; ;
+}
+
+nav a {
+	color: #fff;
+    margin: 0 1rem;
+    align-items: center;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+#hero {
+    background-image: url('img/FOR\ THE\ WORLD.jpg');
+    background-size:auto;
+    background-position: center;
+    color: #fff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px 7%;
+	
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+}
+
+#hero h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+#hero p {
+	font-size: 1.2em;
+	max-width: 600px;
+	margin: 0 auto 50px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #4f4f4f;
+	color: #ffffff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #666;
+}
+
+#features {
+	display:table-column;
+
+    color: #0a0a0a;
+	justify-content: center;
+	margin-top: 50px;
+    top: 0;
+}
+
+.feature {
+	flex: 1;
+	margin: 0 10px 20px;
+	max-width: 300px;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.feature img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.feature h3 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.feature p {
+	font-size: 0.9em;
+	color: #666;
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+
+#about {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#about p {
+	max-width: 600px;
+	margin: 0 auto 50px;
+}
+
+#contact {
+	margin-top: 50px;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+form label {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+form input,
+form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: #666;
+}
